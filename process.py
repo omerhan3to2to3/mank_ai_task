@@ -6,7 +6,7 @@ import os
 
 def format_time(seconds):
     return str(timedelta(seconds=seconds))[:-3]
-sda
+
 def match_speaker(text, df):
     for _, row in df.iterrows():
         if pd.isna(row['Turkish']):
